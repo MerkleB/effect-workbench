@@ -12,11 +12,11 @@
   "activationEvents": [
     "onCommand:effect-workbench.helloWorld"
   ],
-  "main": "./extension.js",
+  "main": "./src/extension.js",
   "contributes": {
     "commands": [{
       "command": "effect-workbench.helloWorld",
-      "title": "Hello World"
+      "title": "Compile"
     }]
   },
   "scripts": {
